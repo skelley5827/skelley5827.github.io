@@ -7,21 +7,29 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom: 30px;
     background: #93A603;
+    border-radius:5px;
+    box-shadow: 5px 8px #BCBF65;
 }
 
 .assignment img {
     width:200px;
     border: 2px solid #0D0D0D;
     margin-right: 20px;
+    border-radius:5px;
 }
 
 hl {
     color: #BCBF65;
-    text-align:center:
+    text-align:center;
 }
 
 a {
     text-decoration:none;
     color: #2C4001;
+}
+
+.assignment a:hover{
+    color:lightgreen;
 }
